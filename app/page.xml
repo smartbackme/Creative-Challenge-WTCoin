@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<record> 
+    <insert ui="Splash"/>  
+    <insert ui="Main"/>  
+    <insert ui="Register"/>  
+    <insert ui="Login"/>  
+    <insert ui="MainLoc"/>  
+    <insert ui="Date"/>
+</record>

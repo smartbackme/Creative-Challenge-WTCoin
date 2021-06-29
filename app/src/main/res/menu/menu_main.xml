@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_apartment_24"
+        android:title="@string/app_main" />
+
+    <item
+        android:id="@+id/navigation_time"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        android:title="@string/app_data" />
+
+
+</menu>

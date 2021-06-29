@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WTCoin</string>
+    <string name="app_main">主功能</string>
+    <string name="app_data">区块数据展示</string>
+    <string name="app_logout">"退出登录"</string>
+
+</resources>

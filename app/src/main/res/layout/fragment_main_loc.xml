@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context="com.kangaroo.wtcoin.ui.fragment.MainLocFragment">
+
+<TextView
+	android:id="@+id/userData"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+	<TextView
+		android:id="@+id/lianData"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+
+	<TextView
+		android:id="@+id/content"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="说明：总空气币数量为200枚，一共有4个算力节点50，100，150，200 \n
+		点击次数分别为2，4，16，64\n
+		如果你的手机速度够快，链长大于现有链长，可以将区块链重置一遍 \n
+		只要线上节点存在一个用户，那么这个用户的数据就会被同步到你这边，如果活跃用户，那么你就可以构造一条新链
+"/>
+	<Button
+		android:id="@+id/button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="点击增加区块" />
+
+</LinearLayout>

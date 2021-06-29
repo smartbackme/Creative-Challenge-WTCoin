@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context="com.kangaroo.wtcoin.ui.fragment.DateFragment">
+
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:background="@color/lib_color_gray"
+		android:layout_height="wrap_content"
+		android:text="活跃用户列表" />
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/users"
+		android:layout_width="match_parent"
+		android:layout_height="300dp"/>
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="链块数据"
+		android:background="@color/lib_color_gray"
+		/>
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/data"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</LinearLayout>
